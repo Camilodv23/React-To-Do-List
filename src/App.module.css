@@ -1,0 +1,126 @@
+ body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffece8ee, #cdcecdbd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    background: linear-gradient(135deg, #ffece8ee, #cdcecdbd);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 3rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #3a2ac5;
+    border-radius: 8px 0 0 8px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    margin-right: 5px;
+  }
+  
+  button.addButton {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button.addButton:hover {
+    background-color: #6b61c0;
+    transition: 0.5s;
+    
+  }
+
+  .todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 5px rgba(221, 212, 212, 0.664);
+    background: linear-gradient(135deg, #ffece8ee, #cdcecdbd);
+  }
+  
+  input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  
+  .todoText {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    flex: 1;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  button.editButton {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button.editButton:hover {
+    background-color: #4f46e5;
+
+    
+  }
+  
+  /* Botón de eliminar */
+  button.deleteButton {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.deleteButton:hover {
+    background-color: #dc2626;
+  }
